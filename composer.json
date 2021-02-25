@@ -1,0 +1,61 @@
+{
+    "name": "nystudio107/contact",
+    "description": "Demo Plugin",
+    "type": "craft-plugin",
+    "version": "1.0.0",
+    "keywords": [
+        "craft",
+        "cms",
+        "craftcms",
+        "craft-plugin",
+        "contact"
+    ],
+    "support": {
+        "docs": "https://github.com/chirag-lujayninfoways/contact/blob/master/README.md",
+        "issues": "https://github.com/chirag-lujayninfoways/contact/issues"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "CP",
+            "homepage": "https://lujayninfoways.com"
+        }
+    ],
+    "require": {
+        "php": ">=7.0.0",
+        "craftcms/cms": "^3.0.0-beta.10",
+        "craftcms/plugin-installer": "^1.0.0",
+        "vlucas/phpdotenv": "^2.4.0",
+        "roave/security-advisories": "dev-master",
+        "nystudio107/contact": "^1.0.0"
+    },
+    "require-dev": {
+      "craftcms/cms": "^3.2.0",
+      "codeception/codeception": "^3.0",
+      "vlucas/phpdotenv": "^3.0"
+    },
+    "autoload": {
+        "psr-4": {
+          "nystudio107\\contact\\": "src/"
+        }
+    },
+    "extra": {
+        "name": "Contact",
+        "handle": "contact",
+        "developer": "CP",
+        "developerUrl": "https://lujayninfoways.com",
+        "documentationUrl": "https://github.com/chirag-lujayninfoways/contact/blob/master/README.md",
+        "changelogUrl": "https://raw.githubusercontent.com/chirag-lujayninfoways/contact/master/CHANGELOG.md",
+        "class": "nystudio107\\contact\\Contact"
+    },
+    "config": {
+        "optimize-autoloader": true
+      },
+    "repositories": [
+        {
+          "type": "path",
+          "url": "/opt/lampp/htdocs/contact/"
+        }
+    ]
+    
+}
